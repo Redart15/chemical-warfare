@@ -1,9 +1,9 @@
-local MODIFICATION = "modification."
-local items = MODIFICATION .. "items."
-local technology = MODIFICATION .. "technology."
+local ROOT = "data-updates."
+local prototype = ROOT .. "items."
+local technology = ROOT .. "technology."
 
 -- items
-require(items .. "add_poison_resistance")
+require(prototype .. "poison_res_armor")
 
 -- technology
-require(technology .. "add_gasmask")
+require(technology .. "gasmask_2armor")

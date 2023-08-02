@@ -1,13 +1,13 @@
-local PROTOTYPE = "prototype."
-local items = PROTOTYPE .. "items."
-local technology = PROTOTYPE .. "technology."
+local ROOT = "data."
+local prototype = ROOT .. "items."
+local technology = ROOT .. "technology."
 
--- items
-require(items .. "acid_capsule")
-require(items .. "gasmask")
+-- new items
+require(prototype .. "acid_capsule")
+require(prototype .. "gasmask")
 
 -- technology
-require(technology .. "gasmask")
+require(technology .. "poison-protection")
 
 
 
