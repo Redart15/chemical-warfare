@@ -6,4 +6,5 @@ local technology = ROOT .. "technology."
 require(prototype .. "poison_res_armor")
 
 -- technology
-require(technology .. "gasmask_2armor")
+require(technology .. "add_gasmask_2mil3")
+require(technology .. "add_mil3_2modular")
