@@ -1,0 +1,9 @@
+{
+    "name": "chemical-warfare",
+    "version": "0.0.1",
+    "title": "Cheminal Warfare",
+    "author": "Redart15",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1"],
+    "description": "Adds chemical weapons"
+  }

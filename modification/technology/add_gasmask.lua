@@ -1,0 +1,1 @@
+table.insert(data.raw["technology"]["modular-armor"]["prerequisites"], "gasmask")
