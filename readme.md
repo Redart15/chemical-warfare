@@ -18,6 +18,23 @@ Adds new way to combat biter using chemistry:
     - adds Gasmask to "" technology
 
 ## Structure
+📦 mod\
+ ┣  📦data/data_updates/data-final\
+ ┃  ┣ 📂items\
+ ┃  ┣ 📂entities\
+ ┃  ┣ 📂technology\
+ ┃  ┗ 📂other\
+ ┣  📦graphics\
+ ┃  ┣ 📂icon\
+ ┃  ┣ 📂sprites\
+ ┃  ┗ 📂other\
+ ┗ 📦local
+
+|             dir | meaning            |
+|----------------:|--------------------|
+|      items/icon | not placeble items |
+| entities/sprite | placable items     |
+|           other | everything else    |
 
 
 
