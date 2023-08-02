@@ -10,8 +10,17 @@ Factorio is a real-time strategy game where players must build and manage comple
 
 ## Features
 Adds new way to combat biter using chemistry:
-- Acid capsule, on impact creates small pools of acid
-- Gas mask, reduces damagae done by poison `#0969DA`
+- New:
+    - Acid capsule, on impact creates cloud of poison
+    - Gas mask, reduces damage done by poison
+- Updated
+    - Modular, power and power-mk2 armor requires gasmask but provides posion resistance
+    - adds Gasmask to "" technology
+
+## Structure
+
+
 
 ## Todo
-- [ ] need to ask how to load into existing saves the unlocked tech if modular armor is unlocked.
+- [ ] generate a simple strukture graph
+- [ ] unlock gasmask if modular armor in a given safe is unlocked
