@@ -1,1 +1,0 @@
--- sticker of fire for controll with acid animation
