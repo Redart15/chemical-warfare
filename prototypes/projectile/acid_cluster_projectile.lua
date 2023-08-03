@@ -24,12 +24,12 @@ local capsule_explosion_sound = {
 
 local acid_action = {
     type = "stream",
-    stream = "acid-stream-player",
+    stream = "acid-stream",
 }
 
-local acid__cluster_projectile = table.deepcopy(data.raw.projectile["slowdown-capsule"])
-acid__cluster_projectile.name = "acid-capsule-projectile"
-acid__cluster_projectile.action = {
+local acid_cluster_projectile = table.deepcopy(data.raw.projectile["slowdown-capsule"])
+acid_cluster_projectile.name = "acid-cluster-projectile"
+acid_cluster_projectile.action = {
     {
         type = "direct",
         action_delivery = {
@@ -65,4 +65,4 @@ acid__cluster_projectile.action = {
     }
 }
 
-data:extend{acid__cluster_projectile}
+data:extend{acid_cluster_projectile}
