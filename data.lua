@@ -10,6 +10,7 @@ FIRE = ROOT .. "fire."
 
 -- armor
 require(ARMOR .. "gasmask")
+require(ARMOR .. "poison_res_armor")
 
 -- capsule
 require(CAPSULE .. "acid_capsule")
@@ -31,6 +32,10 @@ require(STREAM .. "acid_stream_player")
 
 -- fire
 require(FIRE .. "acid_splash_fire_player")
+
+-- technology
+require(TECHNOLOGY .. "add_gasmask_2mil3")
+require(TECHNOLOGY .. "add_mil3_2modular")
 
 
 
