@@ -5,7 +5,7 @@ local animation = table.deepcopy(data.raw.sticker["acid-sticker-big"].animation)
 
 acid_fire_sticker.name = "acid-fire-sticker"
 acid_fire_sticker.animation = animation
-acid_fire_sticker.damage_per_tick = {amount = 50000, type = "acid"}
+acid_fire_sticker.damage_per_tick = {amount = 50000, type = "acid"} -- affects the sticker damage
 
 
 -- remove:
