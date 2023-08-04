@@ -24,7 +24,7 @@ local capsule_explosion_sound = {
 
 local acid_action = {
     type = "stream",
-    stream = "acid-stream",
+    stream = "acid-stream-player",
 }
 
 local acid_cluster_projectile = table.deepcopy(data.raw.projectile["slowdown-capsule"])
