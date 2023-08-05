@@ -11,33 +11,16 @@ Factorio is a real-time strategy game where players must build and manage comple
 ## Features
 Adds new way to combat biter using chemistry:
 - New:
-    - Acid capsule, on impact creates cloud of poison
+    - Acid capsule, on impact splashed acid
+    - Acidthrower ammution, to be used with flamethrower
     - Gas mask, reduces damage done by poison
 - Updated
     - Modular, power and power-mk2 armor requires gasmask but provides posion resistance
-    - adds Gasmask to "" technology
+    - adds gasmask to military3 technology
 
 ## Structure
-📦 mod\
- ┣  📦data/data_updates/data-final\
- ┃  ┣ 📂items\
- ┃  ┣ 📂entities\
- ┃  ┣ 📂technology\
- ┃  ┗ 📂other\
- ┣  📦graphics\
- ┃  ┣ 📂icon\
- ┃  ┣ 📂sprites\
- ┃  ┗ 📂other\
- ┗ 📦local
-
-|             dir | meaning            |
-|----------------:|--------------------|
-|      items/icon | not placeble items |
-| entities/sprite | placable items     |
-|           other | everything else    |
-
+Each Prototype gets its own folder, prototype in files use the file name, might change it so variables have there own namespace
 
 
 ## Todo
-- [ ] generate a simple strukture graph
 - [ ] unlock gasmask if modular armor in a given safe is unlocked
