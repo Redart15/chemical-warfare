@@ -15,6 +15,7 @@ acid_player_stream.action = {
                     damage = {
                         amount = 5,
                         type = "acid",
+                        -- vaporize = true,
                     },
                 },
                 {

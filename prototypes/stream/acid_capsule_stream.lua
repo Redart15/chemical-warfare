@@ -6,6 +6,10 @@ acid_capsule_stream.initial_action[1].action_delivery.target_effects[2].entity_n
 acid_capsule_stream.initial_action[2].force = "all"
 local asp_stream_effects = acid_capsule_stream.initial_action[2].action_delivery.target_effects
 asp_stream_effects[1].sticker = "acid-player-sticker"
-asp_stream_effects[2].damage = {amount = 90, type = "acid"}
+asp_stream_effects[2].damage = {
+    amount = 90,
+    type = "acid",
+    -- vaporize = true,
+}
 
 data:extend({acid_capsule_stream})
