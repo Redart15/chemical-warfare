@@ -34,16 +34,18 @@ local acp_acid_action = {
 local acid_cluster_projectile = table.deepcopy(data.raw.projectile["slowdown-capsule"])
 acid_cluster_projectile.name = "acid-cluster-projectile"
 acid_cluster_projectile.action = {
+    -- works to, however seems to be abit to predictable
     -- {
     --     type = "cluster",
-    --     distance = 2,
-    --     cluster_count = 5,
-    --     distance_deviation = 1,
+    --     distance = 3,
+    --     cluster_count = 3,
+    --     repeat_count = 3,
+    --     distance_deviation = 0.5,
     --     action_delivery = acp_acid_action,
     -- },
     {
         type = "area",
-        repeat_count = 8,
+        repeat_count = 9,
         target_entities = false,
         trigger_from_target = true,
         radius = 3.5,
