@@ -9,5 +9,5 @@ acidthrower_ammo.icons = {
 acidthrower_ammo.magazine_size = 20
 acidthrower_ammo.order = "f[flamethrower]"
 acidthrower_ammo.ammo_type[1].action.action_delivery.stream = "acidthrower-stream"
-
+table.remove(acidthrower_ammo.ammo_type,2)
 data:extend({acidthrower_ammo})
