@@ -13,7 +13,7 @@ acid_player_stream.action = {
                     type = "damage",
                     apply_damage_to_trees = true,
                     damage = {
-                        amount = 10,
+                        amount = 6,
                         type = "acid",
                     },
                 },
