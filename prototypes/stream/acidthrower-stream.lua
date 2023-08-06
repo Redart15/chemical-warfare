@@ -1,6 +1,6 @@
 local acid_player_stream = table.deepcopy(data.raw.stream["acid-stream-spitter-big"])
 acid_player_stream.name = "acidthrower-stream"
-
+acid_player_stream.particle_horizontal_speed = 0.45
 acid_player_stream.initial_action = nil
 acid_player_stream.action = {
     {
@@ -13,7 +13,7 @@ acid_player_stream.action = {
                     type = "damage",
                     apply_damage_to_trees = true,
                     damage = {
-                        amount = 6,
+                        amount = 32,
                         type = "acid",
                     },
                 },
