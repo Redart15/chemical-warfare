@@ -9,7 +9,6 @@ asp_stream_effects[1].sticker = "acid-player-sticker"
 asp_stream_effects[2].damage = {
     amount = 90,
     type = "acid",
-    -- vaporize = true,
 }
 
 data:extend({acid_capsule_stream})

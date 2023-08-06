@@ -10,8 +10,8 @@ acid_player_sticker.spread_fire_entity = "acid-splash-player-fire"
 acid_player_sticker.damage_per_tick = {
     amount = damage,
     type = "acid",
-    -- vaporize = true,
 }
+
 acid_player_sticker.target_movement_modifier = 0.9
 acid_player_sticker.spawn_entity = "acid-splash-player-fire"
 
