@@ -16,6 +16,7 @@ require(ARMOR .. "poison_res_armor")
 
 -- ammo
 require(AMMO .. "acidthrower-ammo")
+require(AMMO .. "poison_rocket_ammo")
 
 -- capsule
 require(CAPSULE .. "acid_capsule")
@@ -25,12 +26,13 @@ require(FIRE .. "acid_splash_player_fire")
 
 --projectile
 require(PROJECTILE ..  "acid_cluster_projectile")
--- require(PROJECTILE .. "acid_fire_cluster_projectile")
+require(PROJECTILE .. "poison_rocket_ammo")
 
 -- recipe
 require(RECIPE .. "acid_capsule")
 require(RECIPE .. "gasmask")
-require(RECIPE .. "acidthrower-ammo")
+require(RECIPE .. "acidthrower_ammo")
+require(RECIPE .. "poison_rocket")
 
 -- sticker
 require(STICKER .. "acid_player_sticker")
