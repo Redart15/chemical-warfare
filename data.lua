@@ -1,44 +1,42 @@
 ROOT = "prototypes."
-ARMOR = ROOT .. "armor."
-AMMO = ROOT .. "ammo."
-CAPSULE = ROOT .. "capsule."
-FIRE = ROOT .. "fire."
-PROJECTILE = ROOT .. "projectile."
-RECIPE = ROOT .. "recipe."
-STREAM = ROOT .. "stream."
-STICKER = ROOT .. "sticker."
-TECHNOLOGY = ROOT .. "technology."
+
 
 -- sorting done by item to easily disable them.
 
 -- gasmask
-require(ARMOR .. "gasmask")
-require(ARMOR .. "poison-res-armor")
-require(RECIPE .. "gasmask")
-require(TECHNOLOGY .. "add-gasmask-2mil3") -- adds poison resistance
-require(TECHNOLOGY .. "add-mil3-2power-armor") -- adds technology to power armour
+local gasmask = ROOT .. "gasmask-armor."
+require(gasmask .. "armor")
+require(gasmask .. "recipe")
 
 
--- added fire to used by player
-
-require(FIRE .. "acid-splash-player-fire")
+local base = ROOT .. "base-mod."
+require(base .. "poison-res-armor") -- adds poison resistance
+require(base .. "add-mil3-2power-armor") -- adds technology to power armour
+require(base .. "add-gasmask-2mil3")
 
 -- acid-capsule
-require(CAPSULE .. "acid-capsule")
-require(PROJECTILE ..  "acid-cluster-projectile")
-require(RECIPE .. "acid-capsule")
-require(STREAM .. "acid-capsule-stream")
+local acid_capsule = ROOT .. "acid-capsule."
+require(acid_capsule .. "capsule")
+require(acid_capsule .. "projectile")
+require(acid_capsule .. "recipe")
+require(acid_capsule .. "stream")
+
+-- added fire to used by player
+local fire = ROOT .. "acid-fire."
+require(fire .. "acid-splash-player-fire")
 
 -- acidthrower-ammo
-require(AMMO .. "acidthrower-ammo")
-require(RECIPE .. "acidthrower-ammo")
-require(STREAM .. "acidthrower-stream")
-require(STICKER .. "acidthrower-sticker")
+local acidthrower = ROOT .. "acidthrower-ammo."
+require(acidthrower .. "ammo")
+require(acidthrower .. "recipe")
+require(acidthrower .. "sticker")
+require(acidthrower .. "stream")
 
 -- posion-rocket
-require(AMMO .. "poison-rocket-ammo")
-require(PROJECTILE .. "poison-rocket-projectile")
-require(RECIPE .. "poison-rocket")
+local poison_rocket = ROOT .. "poison-rocket."
+require(poison_rocket .. "ammo")
+require(poison_rocket .. "projectile")
+require(poison_rocket .. "recipe")
 
 
 

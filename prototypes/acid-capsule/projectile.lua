@@ -1,4 +1,4 @@
-local acp_capsule_explosion_sound = {
+local capsule_explosion_sound = {
     {
         filename = "__base__/sound/fight/poison-capsule-explosion-1.ogg",
         volume = 1.0
@@ -21,19 +21,19 @@ local acp_capsule_explosion_sound = {
     }
 }
 
-local ac_target_sound = {
+local target_sound = {
     type = "play-sound",
-    sound = acp_capsule_explosion_sound
+    sound = capsule_explosion_sound
 }
 
-local acp_acid_action = {
+local action = {
     type = "stream",
     stream = "acid-player-stream",
 }
 
-local acid_cluster_projectile = table.deepcopy(data.raw.projectile["slowdown-capsule"])
-acid_cluster_projectile.name = "acid-cluster-projectile"
-acid_cluster_projectile.action = {
+local projectile = table.deepcopy(data.raw.projectile["slowdown-capsule"])
+projectile.name = "acid-cluster-projectile"
+projectile.action = {
     -- works to, however seems to be abit to predictable
     -- {
     --     type = "cluster",
@@ -41,7 +41,7 @@ acid_cluster_projectile.action = {
     --     cluster_count = 3,
     --     repeat_count = 3,
     --     distance_deviation = 0.5,
-    --     action_delivery = acp_acid_action,
+    --     action_delivery = action,
     -- },
     {
         type = "area",
@@ -49,15 +49,15 @@ acid_cluster_projectile.action = {
         target_entities = false,
         trigger_from_target = true,
         radius = 3.5,
-        action_delivery = acp_acid_action,                      
+        action_delivery = action,
     },
     {
         type = "direct",
         action_delivery = {
             type = "instant",
-            target_effects = ac_target_sound,
+            target_effects = target_sound,
         },
     }
 }
 
-data:extend{acid_cluster_projectile}
+data:extend { projectile }

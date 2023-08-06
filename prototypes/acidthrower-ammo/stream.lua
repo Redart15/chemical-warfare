@@ -1,8 +1,8 @@
-local acid_player_stream = table.deepcopy(data.raw.stream["acid-stream-spitter-big"])
-acid_player_stream.name = "acidthrower-stream"
-acid_player_stream.particle_horizontal_speed = 0.45
-acid_player_stream.initial_action = nil
-acid_player_stream.action = {
+local stream = table.deepcopy(data.raw.stream["acid-stream-spitter-big"])
+stream.name = "acidthrower-stream"
+stream.particle_horizontal_speed = 0.45
+stream.initial_action = nil
+stream.action = {
     {
         type = "area",
         radius = 2.5,
@@ -40,5 +40,4 @@ acid_player_stream.action = {
     }
 }
 
-
-data:extend({acid_player_stream})
+data:extend({ stream })
