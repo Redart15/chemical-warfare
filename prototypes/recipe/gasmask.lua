@@ -1,5 +1,4 @@
-
-local acid_capsule = {
+local gasmask = {
     type = "recipe",
     name = "gasmask",
     enabled = false,
@@ -12,4 +11,4 @@ local acid_capsule = {
     result = "gasmask",
     }
 
-data:extend{acid_capsule}
+data:extend{gasmask}
