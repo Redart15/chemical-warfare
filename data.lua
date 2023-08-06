@@ -13,31 +13,32 @@ TECHNOLOGY = ROOT .. "technology."
 
 -- gasmask
 require(ARMOR .. "gasmask")
-require(ARMOR .. "poison_res_armor")
+require(ARMOR .. "poison-res-armor")
 require(RECIPE .. "gasmask")
-require(TECHNOLOGY .. "add_gasmask_2mil3") -- adds poison resistance
-require(TECHNOLOGY .. "add_mil3_2power_armor") -- adds technology to power armour
+require(TECHNOLOGY .. "add-gasmask-2mil3") -- adds poison resistance
+require(TECHNOLOGY .. "add-mil3-2power-armor") -- adds technology to power armour
 
 
 -- added fire to used by player
-require(STICKER .. "acid_player_sticker")
+
 require(FIRE .. "acid_splash_player_fire")
 
 -- acid-capsule
-require(CAPSULE .. "acid_capsule")
-require(PROJECTILE ..  "acid_cluster_projectile")
-require(RECIPE .. "acid_capsule")
-require(STREAM .. "acid_capsule_stream")
+require(CAPSULE .. "acid-capsule")
+require(PROJECTILE ..  "acid-cluster-projectile")
+require(RECIPE .. "acid-capsule")
+require(STREAM .. "acid-capsule-stream")
 
 -- acidthrower-ammo
-require(AMMO .. "acidthrower_ammo")
-require(RECIPE .. "acidthrower_ammo")
-require(STREAM .. "acidthrower_stream")
+require(AMMO .. "acidthrower-ammo")
+require(RECIPE .. "acidthrower-ammo")
+require(STREAM .. "acidthrower-stream")
+require(STICKER .. "acidthrower-sticker")
 
 -- posion-rocket
-require(AMMO .. "poison_rocket_ammo")
-require(PROJECTILE .. "poison_rocket_projectile")
-require(RECIPE .. "poison_rocket")
+require(AMMO .. "poison-rocket-ammo")
+require(PROJECTILE .. "poison-rocket-projectile")
+require(RECIPE .. "poison-rocket")
 
 
 
