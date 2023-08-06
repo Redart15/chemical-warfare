@@ -21,7 +21,7 @@ require(TECHNOLOGY .. "add-mil3-2power-armor") -- adds technology to power armou
 
 -- added fire to used by player
 
-require(FIRE .. "acid_splash_player_fire")
+require(FIRE .. "acid-splash-player-fire")
 
 -- acid-capsule
 require(CAPSULE .. "acid-capsule")
