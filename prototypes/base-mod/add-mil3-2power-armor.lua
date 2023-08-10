@@ -1,1 +1,0 @@
-table.insert(data.raw["technology"]["power-armor"]["prerequisites"], "military-3")
