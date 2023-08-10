@@ -11,13 +11,12 @@ Factorio is a real-time strategy game where players must build and manage comple
 ## Features
 Adds new way to combat biter using chemistry:
 - new:
-    - Acid capsule, on impact splashed acid
-    - Acidthrower ammution, to be used with flamethrower
     - Gas mask, reduces damage done by poison
     - Poison rocket, spreads poison cloads on impact
-- base-modification
-    - Modular, power and power-mk2 armor requires gasmask but provides posion resistance
+    - Hazmat-suit, reduced status effect
     - adds gasmask to military3 technology
+    - adds chemical-warfare to unlock poison-rocket, hazmat-suit
+
 
 ## Structure
 Each new item/entity get its own folder in prototypes where its defined.
@@ -28,7 +27,6 @@ The rest I will figure out as I go.
 ## Todo
 - [ ] unlock gasmask if modular armor in a given safe is unlocked
 - [ ] icon gasmask
-- [ ] icon acidthrower
 - [ ] icon poison-rocket
-- [ ] icon acid-capsule
+- [ ] icon hazmat-suit
 
