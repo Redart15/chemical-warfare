@@ -31,22 +31,22 @@ data:extend(
             resistances = {
                 {
                     type = "poison",
-                    percent = 60,
+                    percent = 80,
                     decrease = 5,
                 },
                 {
                     type = "acid",
-                    percent = 60,
-                    decrease = 5,
+                    percent = 50,
+                    decrease = 2,
                 },
                 {
                     type = "fire",
-                    percent = 60,
-                    decrease = 5,
+                    percent = 50,
+                    decrease = 2,
                 },
                 {
                     type = "electric",
-                    percent = 60,
+                    percent = 80,
                     decrease = 5,
                 },
             },
