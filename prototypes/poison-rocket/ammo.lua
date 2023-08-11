@@ -5,7 +5,7 @@ ammo.ammo_type.action.action_delivery.projectile = "poison-rocket-projectile"
 ammo.icons = {
     {
         icon = ammo.icon,
-        tint = { b = 1, g = 0, r = 0, a = 0.5 }
+        tint = { b = 255/255, g = 0/255, r = 0/255, a = 0.5 }
     },
 }
 

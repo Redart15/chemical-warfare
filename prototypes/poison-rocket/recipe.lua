@@ -6,8 +6,9 @@ data:extend(
             eneable = true,
             energy_required = 12,
             ingredients = {
-                {"poison-capsule", 3},
-                { "rocket", 1 },               
+                { "poison-capsule", 1 },
+                { "explosives",     1 },
+                { "rocket",         1 },
             },
             result = "poison-rocket-ammo",
         }
