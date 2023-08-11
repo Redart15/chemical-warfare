@@ -13,7 +13,7 @@ data:extend(
       resistances = {
         {
           type = "poison",
-          percent = 30,
+          percent = 50,
           decrease = 5,
         },
       },
